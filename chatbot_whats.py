@@ -44,9 +44,10 @@ class wpp_bot:
         self.search_box.send_keys(contact_name)
         time.sleep(3)
         # Pega o nome que foi encontrado pela caixa de busca
-        self.contact = self.driver.find_element_by_class_name("_2kHpK")
+        self.contact = self.driver.find_elements_by_class_name("_2kHpK")
+
         # Clika no elemento que foi encontrado na caixa de busca
-        self.contact.click()
+        self.contact[-1].click()
         time.sleep(2)  
     
     def apresentation(self,phrase):
@@ -66,4 +67,7 @@ class wpp_bot:
         else:
             return False
     def read_msg(self):
-        self.post
+        time.sleep(5)
+        post = self.driver.find_elements_by_class_name("eRacY")
+        msg_text = post[-2].text
+        return msg_text
