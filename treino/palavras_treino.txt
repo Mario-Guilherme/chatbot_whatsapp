@@ -1,0 +1,10 @@
+acai
+acai simples confirmado. 6,5 R$
+acai c/banana
+acai c/banana confirmado. 7 R$
+acai c/granola confirmado. 7,5 R$
+acai c/banana e granola'
+acai c/banana e granola confirmado. 8 R$
+acai c/frutas confirmado. 8,5 R$
+acai c/morango,bana e aveia
+acai c/morango,bana e aveia confirmado. 9 R$
